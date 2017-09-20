@@ -37,7 +37,7 @@ defaults
 	errorfile 504 /etc/haproxy/errors/504.http
 
 frontend rserve_frontend
-	bind *:23
+	bind *:22
 	mode tcp
 	option tcplog
 	default_backend rserve_backend
